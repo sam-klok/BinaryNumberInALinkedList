@@ -7,6 +7,8 @@ namespace BinaryNumberInALinkedList
     {
         static void Main(string[] args)
         {
+            // see method Add in the class, normally I can't use collection initializer
+            // https://stackoverflow.com/questions/414616/collection-initialization
             var singlyLinkedList = new SinglyLinkedList() { 0, 0, 1, 1, 0, 1, 0 };  // 26
             Print(singlyLinkedList);
             Console.WriteLine(GetNumber(singlyLinkedList.First));

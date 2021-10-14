@@ -8,6 +8,10 @@ It's not like normal List. See below.
 https://stackoverflow.com/questions/30573677/how-to-convert-a-linkedlist-to-an-array-in-c
 
 So we have to iterate it. 
+
+Normally I can't use collection initializer for Linked List either
+https://stackoverflow.com/questions/414616/collection-initialization
+
 Other simple problem is to convert binary to int. 
 
 
